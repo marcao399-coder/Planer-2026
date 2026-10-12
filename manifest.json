@@ -4,15 +4,22 @@
   "description": "Planilha de controle financeiro horizontal pessoal.",
   "icons": [
     {
-      "src": "./Logo Financeiro 512.png",
+      "src": "./logo-financeiro-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./logo-financeiro-512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     }
   ],
   "start_url": "./index.html",
-  "background_color": "#1a3a8f",
-  "theme_color": "#1a3a8f",
+  "scope": "./",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
   "display": "standalone",
   "orientation": "portrait"
 }
